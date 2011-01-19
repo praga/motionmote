@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+<PreferenceCategory android:title="Connectivity">
+
+
+
+<EditTextPreference android:title="IP Address" android:key="ipaddress" android:inputType="phone"></EditTextPreference>
+<EditTextPreference android:title="Port No" android:key="portno" android:inputType="phone" ></EditTextPreference>
+
+
+<Preference android:key="testconnection" android:title="Test Connection"></Preference>
+
+<EditTextPreference android:title="Interval" android:key="interval"></EditTextPreference>
+</PreferenceCategory><PreferenceCategory android:title="Accelerometer"><Preference android:title="Calibration"></Preference>
+<ListPreference android:title="Sampling Rate" android:entryValues="@array/samplerate_values" android:entries="@array/sampleratename"></ListPreference>
+</PreferenceCategory>
+</PreferenceScreen>

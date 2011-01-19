@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+ <string-array name="sampleratename">
+        <item>Fastest Mode</item>
+        <item>Gaming Mode</item>
+        <item>UI Mode</item>
+        <item>Normal Mode</item>
+    </string-array>
+    
+    <string-array name="samplerate_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+</resources>
